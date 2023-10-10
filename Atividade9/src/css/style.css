@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+body{
+    overflow: hidden;
+}
+
+.titulo{
+    display: flex;
+    background-color: #16275B;
+    color: #ffffff
+}
+
+.titulo h1{
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    margin-top:20px;
+    margin-bottom:10px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.input #enviar{
+    display: inline-flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 30px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    background-color: #9CADDF;
+}
+
+.input #calcular{
+    height: 30px;
+    width: 150px;
+    margin-left: 10px;
+    background-color: #9CADDF;
+}
+
+.rodape{
+    background-color: #16275B;
+    height: 300px;
+    margin-top:20px;
+}
