@@ -1,0 +1,58 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+label {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input[type="text"],
+textarea {
+    width: 90%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+#mensagem {
+    text-align: center;
+    color: #FF0000;
+    font-size: 16px;
+}
+
+button {
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 10px; 
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
