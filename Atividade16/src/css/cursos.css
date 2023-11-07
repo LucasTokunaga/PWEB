@@ -1,0 +1,23 @@
+body {
+    background-color: #E0E0F8; 
+    color: #333; 
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    color: #6A5ACD;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+img {
+    height: 300px;
+    width: 600px;
+}
